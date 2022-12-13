@@ -1,0 +1,82 @@
+body {
+  background-color: #141c26;
+  font-family: sans-serif;
+}
+.newTwuddlrItem {
+  max-width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilePicture {
+  width: 50px;
+  border-radius: 50% 50%;
+}
+
+.replyPicture {
+  width: 100%;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.newTwuddlrPostContainer {
+  display: grid;
+  grid-template-columns: 1fr 18fr;
+  gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.newTwuddlrInfoContainer p {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.accountName {
+  font-weight: bold;
+}
+
+.username {
+  color: #808080;
+}
+
+.twuddlrText {
+  margin-left: 80px;
+}
+
+.hashtags {
+  color: #3f729b;
+  margin-left: 80px;
+}
+
+.replyText {
+  line-height: 23px;
+  margin: 0;
+}
+
+.replyTwuddlrItem {
+  display: grid;
+  grid-template-columns: 1fr 18fr;
+  gap: 10px;
+  border-top: 1.5px solid grey;
+  padding-left: 90px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.replyPicture, .replyText {
+  grid-column-start: 2;
+  margin-bottom: 10px;
+}
+
+.replyTwuddlrInfoContainer p {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 5px;
+}
